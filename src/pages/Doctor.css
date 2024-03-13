@@ -1,0 +1,46 @@
+/* Doctor.css */
+
+.doctor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.doctor-form {
+    width: 100%;
+    max-width: 600px; /* Maximum width for the form */
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.doctor-form input[type="text"],
+.doctor-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.doctor-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.doctor-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

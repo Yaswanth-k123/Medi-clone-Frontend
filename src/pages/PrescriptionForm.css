@@ -1,0 +1,69 @@
+/* Style the form container */
+form {
+    max-width: 450px;
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style the body for background */
+body {
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Center the form container horizontally */
+    align-items: center; /* Center the form container vertically */
+    height: 100vh; /* Ensure full height of the viewport */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style form input fields and textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style error messages (optional) */
+input:invalid,
+textarea:invalid {
+    border-color: #ff0000;
+}
+
+/* Style the required field indicator (optional) */
+label[for]:after {
+    content: " *";
+    color: #ff0000;
+}
