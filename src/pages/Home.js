@@ -12,7 +12,7 @@ export default function Home() {
         e.preventDefault();
         console.log(msg);
         try {
-            await axios.post("http://localhost:5000/", {
+            await axios.post("https://medi-clone-backend.onrender.com/", {
                 data: msg,
             });
             console.log(msg);

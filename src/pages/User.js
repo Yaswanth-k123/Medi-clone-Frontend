@@ -8,7 +8,7 @@ export default function User() {
     useEffect(() => {
         const fetchPrescriptions = async (patientId) => {
             try {
-                const response = await axios.get(`http://localhost:5000/getdata/`);
+                const response = await axios.get(`https://medi-clone-backend.onrender.com/getdata`);
                 setPrescriptions(response.data);
             } catch (error) {
                 console.error('Error fetching prescriptions:', error);

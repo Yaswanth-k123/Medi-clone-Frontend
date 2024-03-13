@@ -11,7 +11,7 @@ export default function New() {
         const fetchData = async () => {
             try {
                 // Make a GET request to the API endpoint
-                const response = await axios.get("http://localhost:5000/getdata");
+                const response = await axios.get("https://medi-clone-backend.onrender.com/getdata");
 
                 // Update the state with the fetched data
                 console.log(response.data)

@@ -23,7 +23,7 @@ export default function Doctor() {
         e.preventDefault();
         
         try {
-            await axios.post("http://localhost:5000/prescript", formData);
+            await axios.post("https://medi-clone-backend.onrender.com/prescript", formData);
         } catch (e) {
             console.log(e);
         }
